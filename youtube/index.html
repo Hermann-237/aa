@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link href="styles.css" rel="stylesheet" />
+    <title>JavaScript DOM Tutorials</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <div id="page-banner">
+          <h1 class="title">Bookorama</h1>
+          <p>Books for Ninjas</p>
+          <form id="search-books">
+            <input type="text" placeholder="Search books..." />
+          </form>
+        </div>
+      </header>
+      <div id="book-list">
+        <h2 class="title">Books to Read</h2>
+        <ul>
+          <li>
+            <span class="name">Name of the Wind</span>
+            <span class="delete">delete</span>
+          </li>
+          <li>
+            <span class="name">The Wise Man's Fear</span>
+            <span class="delete">delete</span>
+          </li>
+          <li>
+            <span class="name">Kafka on the Shore</span>
+            <span class="delete">delete</span>
+          </li>
+          <li>
+            <span class="name">The Master and the Margarita</span>
+            <span class="delete">delete</span>
+          </li>
+        </ul>
+      </div>
+      <form id="add-book">
+        <input type="text" placeholder="Add a book..." />
+        <button>Add</button>
+      </form>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Book List</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <main class="container">
+      <header class="mt-4 mb-3">
+        <h1 class="text-center">Francesca's book list</h1>
+      </header>
+      <ul class="book-list card-column container big row">
+        <!--  <li class="col-sm-12 col-md-6 col-xl-3 d-flex justify-content-center">
+          <div class="card one" style="width: 15rem; height: 400px">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-secondary float-right"></a>
+            </div>
+          </div>
+        </li>
+        <li class="col-sm-12 col-md-6 col-xl-3 d-flex justify-content-center">
+          <div class="card two" style="width: 15rem; height: 400px">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-secondary float-right"></a>
+            </div>
+          </div>
+        </li>
+        <li class="col-sm-12 col-md-6 col-xl-3 d-flex justify-content-center">
+          <div class="card three" style="width: 15rem; height: 400px">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text">/p></p>
+            </div>
+
+            <div class="card-footer">
+              <a href="#" class="btn btn-secondary float-right"></a>
+            </div>
+          </div>
+        </li>
+        <li class="col-sm-12 col-md-6 col-xl-3 d-flex justify-content-center">
+          <div class="card four" style="width: 15rem; height: 400px">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-secondary"></a>
+            </div>
+          </div>
+        </li>
+        </li> -->
+      </ul>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
