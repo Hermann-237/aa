@@ -40,6 +40,3 @@ for (let i = 0; i < allChildren.length; i++) {
   list.textContent = allChildren[i].textContent;
   siteMap.appendChild(list);
 }
-
-let b = document.querySelector(".saad");
-console.log(b.hidden);
